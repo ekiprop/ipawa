@@ -49,7 +49,7 @@ class DatabaseHelper {
   }
 
   // Fetch Operation: Get all todo objects from database
-  Future<List<Map<String, dynamic>>> getTodoMapList() async {
+  Future<List<Map<String, dynamic>>> getPawaMapList() async {
     Database db = await this.database;
 
 //		var result = await db.rawQuery('SELECT * FROM $todoTable order by $colTitle ASC');
